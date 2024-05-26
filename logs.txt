@@ -1,0 +1,422 @@
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~
+$ cd Desktop
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop
+$ mkdir SI_2024_lab1_223176
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop
+$ cd SI_2024_lab1_223176
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176
+$ git init
+Initialized empty Git repository in C:/Users/Korisnik/Desktop/SI_2024_lab1_2236/.git/
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git remote add origin https://github.com/simonagorgievska12/SI_2024_lab1_2236.git
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ touch README.md
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ nano README.md
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ nano README.md
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the nt time Git touches it
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 035d61e] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 246 bytes | 246.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/simonagorgievska12/SI_2024_lab1_223176.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git add --all
+warning: in the working copy of 'SILab1Main.java', LF will be replaced by CRLFhe next time Git touches it
+warning: in the working copy of 'SILab1_1.java', LF will be replaced by CRLF t next time Git touches it
+warning: in the working copy of 'SILab1_2.java', LF will be replaced by CRLF t next time Git touches it
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git commit -m "Add starter code"
+[master 380c110] Add starter code
+ 3 files changed, 47 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+ create mode 100644 SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 945 bytes | 945.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/simonagorgievska12/SI_2024_lab1_223176.git
+   035d61e..380c110  master -> master
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git branch bug1
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git branch bug2
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git checkout bug1
+Switched to branch 'bug1'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ nano SILab1_1.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ nano SILab1_1.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git commit -m "Fix wrong condition in filterOddLengthStrings"
+On branch bug1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   SILab1_1.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git checkout bug2
+Switched to branch 'bug2'
+M       SILab1_1.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout bug1
+Switched to branch 'bug1'
+M       SILab1_1.java
+M       SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git add SILab1_1.java
+warning: in the working copy of 'SILab1_1.java', LF will be replaced by CRLF t next time Git touches it
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git commit -m "Fix wrong condition in filterOddLengthStrings"
+[bug1 7af8f6d] Fix wrong condition in filterOddLengthStrings
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git checkout bug2
+Switched to branch 'bug2'
+M       SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git add SILab1_2.java
+warning: in the working copy of 'SILab1_2.java', LF will be replaced by CRLF t next time Git touches it
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git commit -m "Fix wrong condition in makeBigStringFrom"
+[bug2 36f8d62] Fix wrong condition in makeBigStringFrom
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout bug1
+Switched to branch 'bug1'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ nano SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git add SILab1Main.java
+warning: in the working copy of 'SILab1Main.java', LF will be replaced by CRLF the next time Git touches it
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git commit -m "Call method makeBigStringFrom in main class"
+[bug1 fa8b83e] Call method makeBigStringFrom in main class
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git revert <commit-hash>
+bash: syntax error near unexpected token `newline'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git reset --hard HEAD~1
+HEAD is now at 7af8f6d Fix wrong condition in filterOddLengthStrings
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git checkout bug2
+Switched to branch 'bug2'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1_2.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git log -1
+commit 36f8d62b2adaa2bf719e05c632401e53058a0c0a (HEAD -> bug2)
+Author: simonagorgievska12 <gorgievskasimona2004@hotmail.com>
+Date:   Sun May 26 14:59:51 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ checkout bug1
+bash: checkout: command not found
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git add SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git commit -m "Call method filterOddLengthStrings in main class"
+[bug2 b66e03c] Call method filterOddLengthStrings in main class
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout bug2
+Already on 'bug2'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git log -1
+commit b66e03c069b11a7ec450f1c3874c3e1b2cf0ead4 (HEAD -> bug2)
+Author: simonagorgievska12 <gorgievskasimona2004@hotmail.com>
+Date:   Sun May 26 15:10:39 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git reset --soft HEAD~1
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git log -1
+commit 36f8d62b2adaa2bf719e05c632401e53058a0c0a (HEAD -> bug2)
+Author: simonagorgievska12 <gorgievskasimona2004@hotmail.com>
+Date:   Sun May 26 14:59:51 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout bug1
+Switched to branch 'bug1'
+M       SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ nano SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git add SILabMain.java
+fatal: pathspec 'SILabMain.java' did not match any files
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git commit -m "Call method filterOddLengthStrings in main class"
+[bug1 44f240d] Call method filterOddLengthStrings in main class
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug1)
+$ git checkout bug2
+Switched to branch 'bug2'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ nano SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git add SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git commit -m "Call method makeBigStringFrom in main class"
+[bug2 3a0c7a1] Call method makeBigStringFrom in main class
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git push --all origin
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 1.26 KiB | 1.26 MiB/s, done.
+Total 12 (delta 8), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (8/8), completed with 4 local objects.
+To https://github.com/simonagorgievska12/SI_2024_lab1_223176.git
+ * [new branch]      bug1 -> bug1
+ * [new branch]      bug2 -> bug2
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git merge bug1
+Updating 380c110..44f240d
+Fast-forward
+ SILab1Main.java | 2 +-
+ SILab1_1.java   | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/simonagorgievska12/SI_2024_lab1_223176.git
+   380c110..44f240d  master -> master
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git checkout bug2
+Switched to branch 'bug2'
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git rebase master
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+error: could not apply 3a0c7a1... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Could not apply 3a0c7a1... Call method makeBigStringFrom in main class
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2|REBASE 2/2)
+$ nano SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2|REBASE 2/2)
+$ git add SILab1Main.java
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2|REBASE 2/2)
+$ git rebase --continue
+hint: Waiting for your editor to close the file...       0 [sig] bash 1938! sigpacket::process: Suppressing signal 18 to win32 process (pid 1152)
+                                                                   1105807 [sig] bash 1938! sigpacket::process: Suppressing signal 18 to win32 process (pid 1152)
+     1885919 [sig] bash 1938! sigpacket::process: Suppressing signal 18 to win32 process (pid 1152)
+[detached HEAD 57edd07] Call method makeBigStringFrom in main class
+ 1 file changed, 4 insertions(+)
+Successfully rebased and updated refs/heads/bug2.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (bug2)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git merge bug2
+Updating 44f240d..57edd07
+Fast-forward
+ SILab1Main.java | 4 ++++
+ SILab1_2.java   | 4 ++--
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git push --all --force
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 754 bytes | 754.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/simonagorgievska12/SI_2024_lab1_223176.git
+ + 3a0c7a1...57edd07 bug2 -> bug2 (forced update)
+   44f240d..57edd07  master -> master
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ git pull origin master
+From https://github.com/simonagorgievska12/SI_2024_lab1_223176
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ ^C
+
+Korisnik@DESKTOP-5LAIGFP MINGW64 ~/Desktop/SI_2024_lab1_223176 (master)
+$ nano logs.txt
